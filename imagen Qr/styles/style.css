@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dff9f9;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    transition: transform 1s;
+}
+
+h1, p {
+    margin: 10px 0;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+p {
+    max-width: 300px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
